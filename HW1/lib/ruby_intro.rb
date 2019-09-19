@@ -68,7 +68,7 @@ end
 
 def starts_with_consonant? s
   # YOUR CODE HERE
-  if s=~/\A[^aeiou\W]/i
+  if s=~/\A[^aeiou\W\d_]/i
 	return true
   else
 	return false
